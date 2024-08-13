@@ -26,3 +26,36 @@ To get started with this repository, follow these steps:
    ```bash
    git clone https://github.com/Sathyavrv/LMSYS-INTERNLM.git
    cd LMSYS-INTERNLM
+   ```
+## Install Dependencies
+
+Ensure you have Python 3.10+ and the necessary packages installed. You can install the required libraries using pip:
+
+```bash
+pip install -r requirements.txt
+```
+
+## How to Use
+
+- **Training-InternLM.ipynb:** This notebook guides you through the process of fine-tuning the InternLM2 model using LoRA on an GPU. It includes steps for data preprocessing, model configuration, and training, culminating in a fine-tuned model ready for deployment.
+
+- **efficient-fine-tuning-of-llama-for-sequence-classi.ipynb:** This notebook provides a comprehensive approach to fine-tuning the LLaMA model for sequence classification, utilizing advanced techniques like TPU/GPU acceleration and LoRA for efficient performance.
+
+Both notebooks are designed to be easily customizable for your specific tasks and datasets.
+
+## Requirements
+
+- Python 3.10+
+- Hugging Face Transformers
+- PyTorch
+- GPU / TPU
+
+Refer to the installation instructions within each notebook for detailed dependencies.
+
+## Contributing
+
+Contributions are welcome! If you have suggestions, improvements, or new features to add, please feel free to fork the repository, create a branch, and submit a pull request. Issues and bug reports are also appreciated.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for more details.
