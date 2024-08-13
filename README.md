@@ -18,7 +18,9 @@ This repository includes two main Jupyter notebooks:
    - **Techniques:** Low-Rank Adaptation (LoRA), TPU/GPU acceleration, mixed precision training.
    - **Outcome:** An optimized LLaMA model, ready for high-performance applications.
 
-![Model Diagram](images/lora.png)
+<p align="center">
+  <img src="images/lora.png" alt="Model Diagram" />
+</p>
 
 ## Installation
 
